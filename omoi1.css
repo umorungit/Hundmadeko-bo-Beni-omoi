@@ -1,0 +1,106 @@
+
+
+.all{
+	width:80%;
+	margin:auto;
+	padding-top:20px;
+	line-height:2.0;
+	font-family: "M PLUS Rounded 1c";
+	color:#543f32;
+}
+
+
+
+h1{
+	background-image:url(img/omoi/omoi4.jpg);
+	background-repeat:no-repeat;
+
+	background-color:rgba(255,255,255,0.5);
+	background-blend-mode:lighten;
+
+	font-family: "M PLUS Rounded 1c";
+
+	background-size:cover;
+	color:#fff;
+	text-shadow:5px 5px 4px #f3003a;
+	text-align:center;
+	width:100%;
+	height:200px;
+	margin:auto;
+	padding-top:150px;
+}
+
+.infor1{
+	font-size:40px;
+}
+
+.infor2{
+	font-size:24px;
+}
+
+.box1{
+	background-color:#fcf1f0;
+	border:solid 1px #ee827c;
+	border-radius:20px 20px;
+	padding:10px 20px;
+	margin-bottom:30px;
+
+}
+
+h2{
+	color:#d7003a;
+	border-bottom:dotted 4px #ee827c;
+	font-size:26px;
+	text-align:center;
+
+}
+
+.text1{
+	color:#543f32;
+	width:95%;
+	margin:15px auto;
+}
+
+
+
+/*ここからタブレット用のCSS*/
+@media screen and (max-width: 800px)
+{
+
+.all{
+	width:90%;
+	margin:auto;
+	padding-top:20px;
+	line-height:2.0;
+	font-family: "M PLUS Rounded 1c";
+	color:#543f32;
+}
+
+h1{
+	background-image:url(img/omoi/omoi800.jpg);
+	background-repeat:no-repeat;
+}
+
+
+}
+
+
+/*ここからスマホ用のCSS*/
+@media screen and (max-width: 500px)
+{
+
+.all{
+	width:90%;
+	margin:auto;
+	padding-top:20px;
+	line-height:2.0;
+	font-family: "M PLUS Rounded 1c";
+	color:#543f32;
+}
+
+h1{
+	background-image:url(img/omoi/omoi3-copy.jpg);
+	background-repeat:no-repeat;
+}
+
+}
